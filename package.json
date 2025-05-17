@@ -1,0 +1,53 @@
+{
+  "name": "PalaverLite",
+  "version": "1.0.0",
+  "description": "A lightweight social media platform allowing users to create profiles, post messages, and view feeds.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "social media",
+    "react",
+    "bootstrap",
+    "responsive"
+  ],
+  "author": "Shaket Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.3.3",
+    "crypto-js": "^4.2.0",
+    "framer-motion": "^12.4.1",
+    "react": "^18.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-bootstrap-icons": "^1.11.5",
+    "react-dom": "^18.0.0",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^6.0.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.0"
+  },
+  "homepage": "http://yourhomepage.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/PalaverLite.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

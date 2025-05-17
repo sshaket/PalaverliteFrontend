@@ -1,0 +1,18 @@
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon .form-control {
+    padding-right: 2.5rem; /* Adjust padding to make space for the icon */
+}
+
+.input-with-icon .edit-icon {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 0;
+    border: none;
+    background: none;
+}

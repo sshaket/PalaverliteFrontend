@@ -1,0 +1,17 @@
+.comment-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d7d7d7b8;
+}
+
+.comment-box .mb-2 {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment-box .mb-2 hr {
+    border-top: 1px solid #161616;
+}

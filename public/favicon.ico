@@ -1,0 +1,3 @@
+The file /EchoMateLite/EchoMateLite/public/favicon.ico is typically a binary file and cannot be represented as text. You will need to create or obtain a favicon image file (usually in .ico format) and place it in the specified directory. 
+
+To create a favicon, you can use an online favicon generator or design your own using graphic design software. Once you have the favicon.ico file, simply save it in the /public directory of your project.
