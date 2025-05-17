@@ -9,7 +9,7 @@ import axios from 'axios';
 import config from '../config';
 import io from 'socket.io-client';
 
-const socket = io(config.BASE_URL);
+const socket = io(config.SOCKET_URL);
 const Navbar = ({ isAuthenticated, setIsAuthenticated }) => {
     const navigate = useNavigate();
     const [profilePic, setProfilePic] = useState('');

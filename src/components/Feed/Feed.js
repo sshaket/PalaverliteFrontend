@@ -6,7 +6,7 @@ import config from '../../config';
 import UserProfileSidebar from '../Profile/UserProfileSidebar';
 import io from 'socket.io-client';
 
-const socket = io(config.BASE_URL);
+const socket = io(config.SOCKET_URL);
 
 const ViewFeed = () => {
     const [posts, setPosts] = useState([]);

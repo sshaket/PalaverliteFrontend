@@ -6,7 +6,7 @@ import config from '../../config';
 import '../../styles/EditProfile.css';
 import io from 'socket.io-client';
 
-const socket = io(config.BASE_URL);
+const socket = io(config.SOCKET_URL);
 const EditProfile = () => {
     const [firstname, setFirstName] = useState('');
     const [lastname, setLastName] = useState('');
