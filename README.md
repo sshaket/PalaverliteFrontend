@@ -4,7 +4,7 @@ PalaverLite is a lightweight social media platform that allows users to create p
 
 ## Key Features
 
-- **User Authentication**: Secure account creation and login functionality.
+- **User Authentication**: Secure account creation and login functionality. 
 - **Profile Management**: Users can create and edit their profiles, including profile pictures.
 - **Post Creation and Viewing**: Users can create posts and view posts from other users on their feed.
 - **Basic Security Measures**: Encrypted connections (HTTPS) and password hashing for user authentication.
