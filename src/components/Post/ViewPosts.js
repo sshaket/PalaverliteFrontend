@@ -7,7 +7,7 @@ import UserProfileSidebar from '../Profile/UserProfileSidebar';
 import io from 'socket.io-client';
 import '../../styles/ViewPosts.css';
 
-const socket = io(config.BASE_URL);
+const socket = io(config.SOCKET_URL);
 
 const ViewPosts = () => {
     const [posts, setPosts] = useState([]);
